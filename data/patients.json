@@ -1,0 +1,1003 @@
+[
+  {
+    "id": "P001",
+    "name": "Olivia Taylor",
+    "age": 73,
+    "condition": "Asthma",
+    "allergies": [],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-05-22"
+    }
+  },
+  {
+    "id": "P002",
+    "name": "Harper Kim",
+    "age": 45,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-04-20"
+    }
+  },
+  {
+    "id": "P003",
+    "name": "John Garcia",
+    "age": 56,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-04-03"
+    }
+  },
+  {
+    "id": "P004",
+    "name": "Rahul Brown",
+    "age": 62,
+    "condition": "Hypertension",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-04-30"
+    }
+  },
+  {
+    "id": "P005",
+    "name": "Alexander Brown",
+    "age": 40,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-05-17"
+    }
+  },
+  {
+    "id": "P006",
+    "name": "Benjamin Martinez",
+    "age": 70,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-04-26"
+    }
+  },
+  {
+    "id": "P007",
+    "name": "Charlotte Sharma",
+    "age": 32,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Peanuts"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-05-15"
+    }
+  },
+  {
+    "id": "P008",
+    "name": "Ethan Martinez",
+    "age": 33,
+    "condition": "Asthma",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-05-12"
+    }
+  },
+  {
+    "id": "P009",
+    "name": "Ethan Mehta",
+    "age": 61,
+    "condition": "Hypertension",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-05-12"
+    }
+  },
+  {
+    "id": "P010",
+    "name": "Olivia Lopez",
+    "age": 55,
+    "condition": "Hypertension",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-05-04"
+    }
+  },
+  {
+    "id": "P011",
+    "name": "Emma Taylor",
+    "age": 61,
+    "condition": "Hypertension",
+    "allergies": [],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-05-28"
+    }
+  },
+  {
+    "id": "P012",
+    "name": "Sophia Lopez",
+    "age": 66,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-04-10"
+    }
+  },
+  {
+    "id": "P013",
+    "name": "Harper Martinez",
+    "age": 28,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-05-14"
+    }
+  },
+  {
+    "id": "P014",
+    "name": "Mia Wilson",
+    "age": 44,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Peanuts"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-04-18"
+    }
+  },
+  {
+    "id": "P015",
+    "name": "Benjamin Garcia",
+    "age": 73,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-05-13"
+    }
+  },
+  {
+    "id": "P016",
+    "name": "Daniel Lopez",
+    "age": 62,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-04-13"
+    }
+  },
+  {
+    "id": "P017",
+    "name": "James Kim",
+    "age": 72,
+    "condition": "Hypertension",
+    "allergies": [],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-05-03"
+    }
+  },
+  {
+    "id": "P018",
+    "name": "Ava Sharma",
+    "age": 48,
+    "condition": "Asthma",
+    "allergies": [],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-05-28"
+    }
+  },
+  {
+    "id": "P019",
+    "name": "Sophia Smith",
+    "age": 58,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Peanuts"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-04-13"
+    }
+  },
+  {
+    "id": "P020",
+    "name": "Benjamin Smith",
+    "age": 75,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-04-23"
+    }
+  },
+  {
+    "id": "P021",
+    "name": "Anita Mehta",
+    "age": 58,
+    "condition": "Hypertension",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-05-08"
+    }
+  },
+  {
+    "id": "P022",
+    "name": "Anita Mehta",
+    "age": 45,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-05-18"
+    }
+  },
+  {
+    "id": "P023",
+    "name": "Rahul Taylor",
+    "age": 72,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-05-13"
+    }
+  },
+  {
+    "id": "P024",
+    "name": "Alexander Martinez",
+    "age": 60,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-03-25"
+    }
+  },
+  {
+    "id": "P025",
+    "name": "Alexander Kim",
+    "age": 52,
+    "condition": "Hypertension",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-04-17"
+    }
+  },
+  {
+    "id": "P026",
+    "name": "Daniel Taylor",
+    "age": 67,
+    "condition": "Coronary Artery Disease",
+    "allergies": [],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-04-30"
+    }
+  },
+  {
+    "id": "P027",
+    "name": "Ava Martinez",
+    "age": 45,
+    "condition": "Type 2 Diabetes",
+    "allergies": [],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-05-16"
+    }
+  },
+  {
+    "id": "P028",
+    "name": "Benjamin Martinez",
+    "age": 69,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Peanuts"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-05-09"
+    }
+  },
+  {
+    "id": "P029",
+    "name": "Olivia Lopez",
+    "age": 25,
+    "condition": "Hypertension",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-04-21"
+    }
+  },
+  {
+    "id": "P030",
+    "name": "Alexander Kim",
+    "age": 65,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-04-03"
+    }
+  },
+  {
+    "id": "P031",
+    "name": "Charlotte Brown",
+    "age": 48,
+    "condition": "Coronary Artery Disease",
+    "allergies": [],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-05-25"
+    }
+  },
+  {
+    "id": "P032",
+    "name": "Anita Martinez",
+    "age": 54,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-04-12"
+    }
+  },
+  {
+    "id": "P033",
+    "name": "Amelia Smith",
+    "age": 72,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-04-22"
+    }
+  },
+  {
+    "id": "P034",
+    "name": "Amelia Wilson",
+    "age": 33,
+    "condition": "Post Appendectomy",
+    "allergies": [],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-04-19"
+    }
+  },
+  {
+    "id": "P035",
+    "name": "Mia Kim",
+    "age": 66,
+    "condition": "Hypertension",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-04-15"
+    }
+  },
+  {
+    "id": "P036",
+    "name": "Olivia Wilson",
+    "age": 52,
+    "condition": "Hypertension",
+    "allergies": [],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-05-12"
+    }
+  },
+  {
+    "id": "P037",
+    "name": "Maria Garcia",
+    "age": 43,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-03-30"
+    }
+  },
+  {
+    "id": "P038",
+    "name": "Anita Johnson",
+    "age": 71,
+    "condition": "Hypertension",
+    "allergies": [],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-04-25"
+    }
+  },
+  {
+    "id": "P039",
+    "name": "Ava Smith",
+    "age": 64,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-05-30"
+    }
+  },
+  {
+    "id": "P040",
+    "name": "Michael Kim",
+    "age": 35,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Peanuts"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-04-13"
+    }
+  },
+  {
+    "id": "P041",
+    "name": "John Patel",
+    "age": 52,
+    "condition": "Asthma",
+    "allergies": [
+      "Peanuts"
+    ],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-05-09"
+    }
+  },
+  {
+    "id": "P042",
+    "name": "Alexander Smith",
+    "age": 73,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-03-31"
+    }
+  },
+  {
+    "id": "P043",
+    "name": "Benjamin Mehta",
+    "age": 42,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-03-28"
+    }
+  },
+  {
+    "id": "P044",
+    "name": "Michael Johnson",
+    "age": 43,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-05-17"
+    }
+  },
+  {
+    "id": "P045",
+    "name": "Daniel Wilson",
+    "age": 54,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Peanuts"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-04-16"
+    }
+  },
+  {
+    "id": "P046",
+    "name": "Ava Martinez",
+    "age": 66,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-04-21"
+    }
+  },
+  {
+    "id": "P047",
+    "name": "Ethan Brown",
+    "age": 70,
+    "condition": "Coronary Artery Disease",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Aspirin 75mg daily",
+      "Atorvastatin 20mg nightly"
+    ],
+    "last_visit": {
+      "doctor_notes": "Stable cardiac status.",
+      "diet_plan": "Low cholesterol diet. Increase vegetables and whole grains.",
+      "follow_up": "2026-05-16"
+    }
+  },
+  {
+    "id": "P048",
+    "name": "Anita Taylor",
+    "age": 44,
+    "condition": "Hypertension",
+    "allergies": [],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-03-14"
+    }
+  },
+  {
+    "id": "P049",
+    "name": "Amelia Taylor",
+    "age": 51,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-03-30"
+    }
+  },
+  {
+    "id": "P050",
+    "name": "Ava Mehta",
+    "age": 59,
+    "condition": "Hypertension",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Lisinopril 10mg daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood pressure moderately elevated.",
+      "diet_plan": "Low sodium diet. Avoid processed and salty foods.",
+      "follow_up": "2026-03-30"
+    }
+  },
+  {
+    "id": "P051",
+    "name": "Charlotte Lopez",
+    "age": 38,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-03-19"
+    }
+  },
+  {
+    "id": "P052",
+    "name": "Mia Garcia",
+    "age": 37,
+    "condition": "Asthma",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-04-08"
+    }
+  },
+  {
+    "id": "P053",
+    "name": "John Sharma",
+    "age": 27,
+    "condition": "Type 2 Diabetes",
+    "allergies": [],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-04-20"
+    }
+  },
+  {
+    "id": "P054",
+    "name": "Benjamin Wilson",
+    "age": 45,
+    "condition": "Post Appendectomy",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Ibuprofen 400mg as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Surgical incision healing normally.",
+      "diet_plan": "Soft foods for 2-3 weeks. Avoid spicy and fried items.",
+      "follow_up": "2026-05-10"
+    }
+  },
+  {
+    "id": "P055",
+    "name": "James Smith",
+    "age": 41,
+    "condition": "Asthma",
+    "allergies": [],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-05-29"
+    }
+  },
+  {
+    "id": "P056",
+    "name": "Alexander Martinez",
+    "age": 38,
+    "condition": "Type 2 Diabetes",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-04-21"
+    }
+  },
+  {
+    "id": "P057",
+    "name": "Emma Martinez",
+    "age": 61,
+    "condition": "Asthma",
+    "allergies": [],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-04-25"
+    }
+  },
+  {
+    "id": "P058",
+    "name": "Michael Martinez",
+    "age": 74,
+    "condition": "Type 2 Diabetes",
+    "allergies": [],
+    "medications": [
+      "Metformin 500mg twice daily"
+    ],
+    "last_visit": {
+      "doctor_notes": "Blood glucose slightly elevated. Monitor fasting sugar daily.",
+      "diet_plan": "Low sugar diet. Avoid sweets and refined carbohydrates.",
+      "follow_up": "2026-04-23"
+    }
+  },
+  {
+    "id": "P059",
+    "name": "Michael Johnson",
+    "age": 38,
+    "condition": "Asthma",
+    "allergies": [
+      "Penicillin"
+    ],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-05-24"
+    }
+  },
+  {
+    "id": "P060",
+    "name": "Michael Martinez",
+    "age": 37,
+    "condition": "Asthma",
+    "allergies": [
+      "Dust"
+    ],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-05-26"
+    }
+  }
+]

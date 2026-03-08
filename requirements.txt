@@ -1,0 +1,7 @@
+ollama
+chromadb
+pydantic
+sqlalchemy
+streamlit
+python-dotenv
+tqdm
