@@ -1,8 +1,10 @@
 ollama
-chromadb
+chromadb==0.4.24
 pydantic
 sqlalchemy
 streamlit
 python-dotenv
 tqdm
 pypdf
+pytesseract
+Pillow
