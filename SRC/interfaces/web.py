@@ -12,32 +12,43 @@ from src.services.patient_service import load_patient
 from src.core.rag_engine import RAGEngine
 
 
+# ----------------------------------------------------
+# Page Config
+# ----------------------------------------------------
 st.set_page_config(
-    page_title="Patient RAG Assistant",
+    page_title="AI Patient Assistant",
     page_icon="🏥",
     layout="wide"
 )
 
-st.title("🏥 Patient Medical Assistant")
+st.markdown(
+"""
+# 🏥 AI Patient Medical Assistant
+### Intelligent support for patient recovery and health monitoring
+"""
+)
 
 rag = RAGEngine()
 
 
-# ---------------------------
-# Sidebar
-# ---------------------------
-with st.sidebar:
+# ----------------------------------------------------
+# Layout
+# ----------------------------------------------------
+left, right = st.columns([1, 2])
 
-    st.header("Patient Settings")
+
+# ====================================================
+# LEFT PANEL — PATIENT DASHBOARD
+# ====================================================
+with left:
+
+    st.header("🧑 Patient Dashboard")
 
     patient_id = st.text_input(
-        "Enter your Patient ID",
+        "Enter Patient ID",
         placeholder="Example: P012"
     )
 
-    # ---------------------------
-    # Patient Dashboard
-    # ---------------------------
     patient_data = None
 
     if patient_id:
@@ -46,38 +57,46 @@ with st.sidebar:
 
         if patient_data:
 
+            st.success("Patient Loaded")
+
             st.markdown("### Patient Overview")
 
-            st.write(f"Name: {patient_data['name']}")
-            st.write(f"Age: {patient_data['age']}")
-            st.write(f"Condition: {patient_data['condition']}")
+            st.info(f"""
+**Name:** {patient_data['name']}
+
+**Age:** {patient_data['age']}
+
+**Condition:** {patient_data['condition']}
+""")
 
             allergies = patient_data.get("allergies", [])
 
             if allergies:
-                st.write(f"Allergies: {', '.join(allergies)}")
+                st.warning(f"⚠️ Allergies: {', '.join(allergies)}")
 
             visit = patient_data.get("last_visit", {})
 
             st.markdown("### Doctor Notes")
-            st.write(visit.get("doctor_notes", "No notes"))
+            st.write(visit.get("doctor_notes", "No notes available"))
 
             st.markdown("### Diet Plan")
-            st.write(visit.get("diet_plan", "No diet plan"))
+            st.write(visit.get("diet_plan", "No diet plan available"))
 
         else:
-            st.warning("Patient ID not found.")
+            st.error("Patient ID not found")
+
 
     st.markdown("---")
 
-    # ---------------------------
-    # Patient Report Timeline
-    # ---------------------------
+
+    # ----------------------------------------------------
+    # Patient Reports
+    # ----------------------------------------------------
     if patient_id:
 
-        report_folder = os.path.join("uploads", patient_id)
+        st.markdown("### 📄 Medical Reports")
 
-        st.markdown("### Patient Reports")
+        report_folder = os.path.join("uploads", patient_id)
 
         if os.path.exists(report_folder):
 
@@ -89,38 +108,32 @@ with st.sidebar:
 
                     file_path = os.path.join(report_folder, file)
 
-                    col1, col2, col3 = st.columns([5, 1, 1])
+                    with st.container(border=True):
 
-                    col1.write(file)
+                        st.write(f"📄 {file}")
 
-                    with open(file_path, "rb") as f:
-                        file_bytes = f.read()
+                        with open(file_path, "rb") as f:
+                            file_bytes = f.read()
 
-                    col2.download_button(
-                        label="Download",
-                        data=file_bytes,
-                        file_name=file,
-                        mime="application/octet-stream"
-                    )
-
-                    if file.endswith(".txt"):
-
-                        with col3.expander("View"):
-
-                            with open(file_path, "r") as f:
-                                st.write(f.read())
+                        st.download_button(
+                            "Download",
+                            file_bytes,
+                            file
+                        )
 
             else:
-                st.write("No reports uploaded yet.")
+                st.write("No reports uploaded yet")
 
         else:
-            st.write("No reports uploaded yet.")
+            st.write("No reports uploaded yet")
+
 
     st.markdown("---")
 
-    # ---------------------------
-    # Upload Medical Reports
-    # ---------------------------
+
+    # ----------------------------------------------------
+    # Upload Reports
+    # ----------------------------------------------------
     st.subheader("Upload Medical Report")
 
     uploaded_file = st.file_uploader(
@@ -131,7 +144,6 @@ with st.sidebar:
     if uploaded_file is not None and patient_id:
 
         patient_folder = os.path.join("uploads", patient_id)
-
         os.makedirs(patient_folder, exist_ok=True)
 
         file_path = os.path.join(patient_folder, uploaded_file.name)
@@ -141,105 +153,74 @@ with st.sidebar:
 
         st.success("Report uploaded successfully")
 
-        # Extract report text
+        # Extract text
         if uploaded_file.name.endswith(".pdf"):
-
             text = extract_pdf_text(file_path)
-
         else:
-
             with open(file_path, "r") as f:
                 text = f.read()
 
-        # ---------------------------
-        # AI REPORT ANALYSIS
-        # ---------------------------
-        with st.spinner("Analyzing report..."):
-
+        # Analyze report
+        with st.spinner("🔬 AI analyzing report..."):
             summary = analyze_medical_report(text)
 
-        st.subheader("📋 Report Summary")
-
+        st.markdown("### 📋 Report Summary")
         st.markdown(summary)
 
-        # ---------------------------
-        # Store report in RAG DB
-        # ---------------------------
         rag.index_patient_report(patient_id, text)
 
         st.success("Report added to patient knowledge base")
 
-    st.markdown("---")
 
-    if st.button("Clear Conversation"):
+# ====================================================
+# RIGHT PANEL — CHAT ASSISTANT
+# ====================================================
+with right:
 
+    st.header("💬 Medical Assistant Chat")
+
+    if "messages" not in st.session_state:
         st.session_state.messages = []
 
-        st.rerun()
+    # Display chat history
+    for msg in st.session_state.messages:
 
-    st.caption("AI assistant for patient pre/post treatment guidance")
-
-
-# ---------------------------
-# Chat Memory
-# ---------------------------
-if "messages" not in st.session_state:
-
-    st.session_state.messages = []
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
 
 
-# ---------------------------
-# Display Chat Messages
-# ---------------------------
-for msg in st.session_state.messages:
+    # ----------------------------------------------------
+    # Chat Input
+    # ----------------------------------------------------
+    if prompt := st.chat_input("Ask your health question..."):
 
-    with st.chat_message(msg["role"]):
+        if not patient_id:
+            st.warning("Please enter Patient ID first")
+            st.stop()
 
-        st.markdown(msg["content"])
+        # Add user message
+        st.session_state.messages.append({
+            "role": "user",
+            "content": prompt
+        })
+
+        with st.chat_message("user"):
+            st.markdown(prompt)
+
+        # AI response
+        with st.chat_message("assistant"):
+
+            with st.spinner("🤖 AI analyzing medical knowledge..."):
+
+                response = ask_question(patient_id, prompt)
+
+                st.markdown(response)
+
+        st.session_state.messages.append({
+            "role": "assistant",
+            "content": response
+        })
 
 
-# ---------------------------
-# Chat Input
-# ---------------------------
-if prompt := st.chat_input("Ask your health question..."):
-
-    if not patient_id:
-
-        st.warning("Please enter your Patient ID first.")
-
-        st.stop()
-
-    # Show user message
-    st.session_state.messages.append({
-        "role": "user",
-        "content": prompt
-    })
-
-    with st.chat_message("user"):
-        st.markdown(prompt)
-
-    # Generate AI response
-    with st.chat_message("assistant"):
-
-        chat_history = [
-            (m["content"], "")
-            for m in st.session_state.messages
-            if m["role"] == "user"
-        ]
-
-        response_placeholder = st.empty()
-
-        full_response = ""
-
-        for chunk in ask_question(patient_id, prompt, chat_history):
-
-            full_response += chunk
-
-            response_placeholder.markdown(full_response + "▌")
-
-        response_placeholder.markdown(full_response)
-
-    st.session_state.messages.append({
-        "role": "assistant",
-        "content": full_response
-    })
+    st.markdown("---")
+    st.caption("AI Patient Assistant • Powered by Local LLM + RAG")

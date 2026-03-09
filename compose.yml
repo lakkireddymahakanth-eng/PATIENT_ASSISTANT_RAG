@@ -1,0 +1,26 @@
+name: patient_assistant_rag
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      ollama:
+        condition: service_started
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./storage:/app/storage
+      - ./uploads:/app/uploads
+      - ./data:/app/data
+
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+
+volumes:
+  ollama:

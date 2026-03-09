@@ -1,79 +1,22 @@
-# Exclude everything by default (fastest builds)
-*
-
-# Then explicitly include what you actually NEED in the Docker context
-!Dockerfile
-!docker-compose.yml          # if you use it
-!requirements.txt            # Python
-!pyproject.toml
-!setup.py
-!package.json                # Node
-!package-lock.json
-!yarn.lock
-!pnpm-lock.yaml
-!go.mod                      # Go
-!go.sum
-!pom.xml                     # Java/Maven
-!build.gradle                # Gradle
-!Cargo.toml                  # Rust
-!Cargo.lock
-!src/                        # your source code folder(s)
-!app/
-!lib/
-!public/
-!static/
-!templates/
-!migrations/
-!api/
-!cmd/
-!internal/
-!*.py
-!*.js
-!*.ts
-!*.jsx
-!*.tsx
-!*.go
-!*.java
-!*.rs
-!*.sh
-!*.md                        # optional: include README if wanted
-
-# Always exclude these (even if you included *)
 .git
 .gitignore
-.github
-.gitattributes
-.docker
-**/.dockerignore
-Dockerfile*
-docker-compose*
-.dockerignore
-
-# Secrets & sensitive
-.env
-.env.*
-*.env
-*.key
-*.pem
-*.secret
-*.password
-
-# Temp / logs / heavy folders
-node_modules/
-venv/
-.venv/
+.venv
 __pycache__/
 *.pyc
 *.pyo
-*.log
-logs/
-tmp/
-temp/
-coverage/
-dist/
-build/
-target/
-.idea/
+*.pyd
+.pytest_cache/
+.coverage
 .vscode/
-.DS_Store
-Thumbs.db
+.idea/
+*.log
+.env
+Patient_memory/     # ← if large, exclude unless needed in build
+docs/
+data/               # ← usually mount at runtime, not COPY
+uploads/            # same
+storage/            # same
+docker/
+Dockerfile
+compose.yml         # or docker-compose.yml
+**/.gitkeep
