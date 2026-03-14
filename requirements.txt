@@ -8,3 +8,7 @@ tqdm
 pypdf
 pytesseract
 Pillow
+openai-whisper
+sounddevice
+scipy
+gTTS

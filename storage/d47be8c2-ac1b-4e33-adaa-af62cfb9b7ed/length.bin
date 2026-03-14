@@ -1,27 +1,17 @@
-Dr. K. Ritesh wei
-
-Clarity Scans
-
-a Devi :/Bexi a3¥/1
-
-‘esh Reddy MD, DM, Neuro Date: March 8, 2026
-
-M.R.LOF LEFT SHOULDER JOINT
-
-Protocol + Axial PDFS, MEDGE
-
-Coronal PDES, T2
-
-FINDINGS:
-ROTATOR CUFF:
-
-> — Supraspinatus tendinosis with partial-thickne
-
-ith a PASTA-type tear
-
-> Associated rotator cuff impin
-> Muscle atrophy involving the rotator cuff musculatur
-
-LABRUM:
-
-> Glenoid Labrum is n
+ "Asthma",
+    "allergies": [],
+    "medications": [
+      "Salbutamol inhaler as needed"
+    ],
+    "last_visit": {
+      "doctor_notes": "Mild wheezing observed.",
+      "diet_plan": "Avoid allergens and cold beverages.",
+      "follow_up": "2026-04-25"
+    }
+  },
+  {
+    "id": "P058",
+    "name": "Michael Martinez",
+    "age": 74,
+    "condition": "Type 2 Diabetes",
+    "allergi
