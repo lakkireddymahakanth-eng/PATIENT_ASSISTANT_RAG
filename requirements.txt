@@ -12,3 +12,4 @@ openai-whisper
 sounddevice
 scipy
 gTTS
+geopy

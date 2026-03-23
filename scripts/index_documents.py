@@ -1,4 +1,4 @@
-from core.rag_engine import RAGEngine
+from src.core.rag_engine import RAGEngine
 
 if __name__ == "__main__":
     rag = RAGEngine()

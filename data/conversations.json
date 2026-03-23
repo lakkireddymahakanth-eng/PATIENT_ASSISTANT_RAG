@@ -1,0 +1,130 @@
+[
+  {
+    "patient_id": "P001",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "Hello Olivia Taylor! I can see you have **Asthma**. I just need 3 quick details to book your appointment. What date would you like?"
+      },
+      {
+        "role": "user",
+        "content": "i have  headache "
+      },
+      {
+        "role": "assistant",
+        "content": "What date would you like the appointment? For example, tomorrow or March 25th."
+      },
+      {
+        "role": "user",
+        "content": "may i know what are the timings available for 23 and 24th "
+      },
+      {
+        "role": "assistant",
+        "content": "What time works for you? For example, 10 AM or 2 in the afternoon."
+      },
+      {
+        "role": "user",
+        "content": "i have time on 23rd afternoon and 24th morning when ever is good for me "
+      },
+      {
+        "role": "assistant",
+        "content": "Which city or area would you prefer for the appointment?"
+      },
+      {
+        "role": "user",
+        "content": "berlin, germany "
+      },
+      {
+        "role": "assistant",
+        "content": "Perfect! I have everything I need. Booking your appointment for **23rd** at **afternoon** in **berlin, germany**. Please wait a moment..."
+      }
+    ],
+    "timestamp": "2026-03-20 21:41"
+  },
+  {
+    "patient_id": "P014",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "Hello Mia Wilson! I can see you have **Coronary Artery Disease**. I just need 3 quick details to book your appointment. What date would you like?"
+      },
+      {
+        "role": "user",
+        "content": "i have severe chest pain "
+      },
+      {
+        "role": "assistant",
+        "content": "What date would you like the appointment? For example, tomorrow or March 25th."
+      },
+      {
+        "role": "user",
+        "content": "right now "
+      },
+      {
+        "role": "assistant",
+        "content": "Which city or area would you prefer for the appointment?"
+      },
+      {
+        "role": "user",
+        "content": "berlin "
+      },
+      {
+        "role": "assistant",
+        "content": "Perfect! I have everything I need. Booking your appointment for **now** at **now** in **berlin**. Please wait a moment..."
+      }
+    ],
+    "timestamp": "2026-03-20 21:42"
+  },
+  {
+    "patient_id": "P041",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "Hello John Patel! I can see you have **Asthma**. I just need a few details to book your appointment. What date would you like?"
+      },
+      {
+        "role": "user",
+        "content": "i have severe chest pain and i am unable to breathe "
+      },
+      {
+        "role": "assistant",
+        "content": "\ud83d\udea8 This sounds like an **emergency**! Which city are you in? I will book you with an emergency doctor right away."
+      },
+      {
+        "role": "user",
+        "content": "berlin"
+      },
+      {
+        "role": "assistant",
+        "content": "\ud83d\udea8 **Emergency detected!** I am booking you with an **emergency doctor immediately**. Please proceed to the clinic or call emergency services if needed. Please wait..."
+      }
+    ],
+    "timestamp": "2026-03-20 21:56"
+  },
+  {
+    "patient_id": "P001",
+    "conversation": [
+      {
+        "role": "assistant",
+        "content": "Hello Olivia Taylor! I can see you are registered with **Asthma**. Is that the reason for today's visit, or is there something else you'd like to address?"
+      },
+      {
+        "role": "user",
+        "content": "i have severe chest painn "
+      },
+      {
+        "role": "assistant",
+        "content": "\ud83d\udea8 This sounds like an **emergency**! Which city are you in? I will book you with an emergency doctor right away."
+      },
+      {
+        "role": "user",
+        "content": "i am in berlin "
+      },
+      {
+        "role": "assistant",
+        "content": "\ud83d\udea8 **Emergency detected!** I am booking you with an **emergency doctor immediately**. Please proceed to the clinic or call emergency services if needed. Please wait..."
+      }
+    ],
+    "timestamp": "2026-03-20 23:02"
+  }
+]

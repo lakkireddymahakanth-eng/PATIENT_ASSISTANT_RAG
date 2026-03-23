@@ -1,0 +1,26 @@
+[
+  {
+    "dispatched_at": "2026-03-20 22:29:24",
+    "patient_name": "Sophia Lopez",
+    "condition": "I have severe chest pain on the left arm pain.",
+    "location_city": "Berlin",
+    "coordinates": [
+      52.5244,
+      13.4105
+    ],
+    "status": "AMBULANCE DISPATCHED",
+    "eta_minutes": 8
+  },
+  {
+    "dispatched_at": "2026-03-20 23:07:46",
+    "patient_name": "Olivia Taylor",
+    "condition": "I have severe, just wait and see where left on pain.",
+    "location_city": "Berlin",
+    "coordinates": [
+      52.5244,
+      13.4105
+    ],
+    "status": "AMBULANCE DISPATCHED",
+    "eta_minutes": 8
+  }
+]

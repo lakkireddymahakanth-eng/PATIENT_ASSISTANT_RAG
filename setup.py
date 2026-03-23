@@ -4,7 +4,7 @@ setup(
     name="patient_rag_assistant",
     version="0.1.0",
     description="RAG-based Patient Medical Assistant using Ollama and Chroma",
-    author="Your Name",
+    author="Mahakanth Sai reddy",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=[

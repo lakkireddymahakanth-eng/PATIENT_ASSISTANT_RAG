@@ -1,0 +1,48 @@
+[
+  {
+    "appointment_id": "A9227",
+    "patient_id": "P001",
+    "name": "Olivia Taylor",
+    "phone": "not provided",
+    "problem": "I have headache and my licking and I have licking",
+    "notes": "Allergies: . Doctor notes: Mild wheezing observed.",
+    "specialization": "neurologist",
+    "doctor": "Dr. Brain",
+    "datetime": "2026-03-23 15:15",
+    "emergency": false,
+    "priority": "\ud83d\udcc5 NORMAL",
+    "location": {
+      "address": "Berlin, Deutschland",
+      "city": null,
+      "country": null
+    },
+    "insurance": {
+      "type": "none"
+    },
+    "status": "booked",
+    "created_at": "2026-03-20 23:26"
+  },
+  {
+    "appointment_id": "A1271",
+    "patient_id": "P001",
+    "name": "Olivia Taylor",
+    "phone": "not provided",
+    "problem": "headache and leg pain",
+    "notes": "Allergies: . Doctor notes: Mild wheezing observed.",
+    "specialization": "neurologist",
+    "doctor": "Dr. Brain",
+    "datetime": "2026-03-21 10:00",
+    "emergency": false,
+    "priority": "\ud83d\udcc5 NORMAL",
+    "location": {
+      "address": "Straw, Mid-Ulster District Council, County Londonderry, Northern Ireland / Tuaisceart \u00c9ireann, BT45 7BB, United Kingdom",
+      "city": null,
+      "country": null
+    },
+    "insurance": {
+      "type": "none"
+    },
+    "status": "booked",
+    "created_at": "2026-03-20 23:34"
+  }
+]
