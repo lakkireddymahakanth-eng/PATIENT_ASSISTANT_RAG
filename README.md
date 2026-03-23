@@ -1,6 +1,6 @@
 # 🏥 Patient Assistant RAG
 
-A voice-enabled, multimodal AI health assistant powered by a local RAG (Retrieval-Augmented Generation) pipeline. Ask health questions using your **voice**, **images**, or through the **web/CLI interface** — and get intelligent answers grounded in real clinical medical documents.
+A comprehensive voice-enabled, multimodal AI health assistant with chat support, appointment booking, and early emergency detection, powered by a local RAG (Retrieval-Augmented Generation) pipeline. Ask health questions using your **voice**, **images**, or through the **web/CLI interface** — and get intelligent answers grounded in real clinical medical documents.
 
 > ⚠️ **Disclaimer:** This tool is for informational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional.
 
@@ -17,7 +17,9 @@ A voice-enabled, multimodal AI health assistant powered by a local RAG (Retrieva
 | 🗄️ Patient Memory | Stores patient context and history across sessions |
 | 🌐 Web Interface | Streamlit-based web UI |
 | 💻 CLI Interface | Command-line interface for terminal users |
-| 🐳 Docker Support | Fully containerized with Docker Compose |
+| � Appointment Booking | Book appointments through chat and voice interfaces |
+| 🚨 Early Emergency Detection | Detects emergency situations and alerts appropriately |
+| �🐳 Docker Support | Fully containerized with Docker Compose |
 
 ---
 
@@ -27,7 +29,11 @@ A voice-enabled, multimodal AI health assistant powered by a local RAG (Retrieva
 PATIENT_ASSISTANT_RAG/
 │
 ├── data/
-│   └── patients.json                   # Patient data store
+│   ├── patients.json                   # Patient data store
+│   ├── appointments.json               # Appointment bookings
+│   ├── conversations.json              # Conversation history
+│   ├── medical_history.json            # Medical history records
+│   └── ambulance_dispatch.json         # Ambulance dispatch data
 │
 ├── Medical_documents/                  # Knowledge base (PDFs fed into RAG)
 │   ├── 20241107_Leitlinie_IWGDF.pdf
@@ -61,7 +67,13 @@ PATIENT_ASSISTANT_RAG/
 │   │
 │   ├── services/
 │   │   ├── __init__.py
+│   │   ├── ai_voice_call.py            # AI-powered voice call handling
+│   │   ├── appointment_service.py      # Appointment booking and management
+│   │   ├── conversation_engine.py      # Chat conversation processing
+│   │   ├── conversation_history_service.py # Conversation history management
 │   │   ├── image_service.py            # Image OCR processing
+│   │   ├── location_service.py         # Location-based services
+│   │   ├── medical_history.py          # Medical history management
 │   │   ├── patient_service.py          # Patient data management
 │   │   ├── report_analysis.py          # Medical report analysis
 │   │   ├── report_service.py           # Report retrieval and handling
